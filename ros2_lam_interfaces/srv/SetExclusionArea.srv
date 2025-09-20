@@ -1,0 +1,4 @@
+geometry_msgs/Point[] point_list
+---
+bool is_ok
+string error_msg
