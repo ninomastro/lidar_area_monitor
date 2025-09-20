@@ -30,7 +30,7 @@ class LidarAreaMonitor(Node):
         # === Parametri stile marker (modificabili a runtime) ===
         self.declare_parameter('line_thickness', 0.02)                 # m
         self.declare_parameter('line_color', [1.0, 0.35, 0.0, 1.0])     # RGBA
-        self.declare_parameter('sphere_size', 0.04)                    # m (diametro)
+        self.declare_parameter('sphere_size', 0.0)                    # m (diametro)
         self.declare_parameter('sphere_color', [1.0, 0.35, 0.0, 1.0])   # RGBA
         self._reload_style_params()
         self.add_on_set_parameters_callback(self._on_params)
