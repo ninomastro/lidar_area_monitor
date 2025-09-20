@@ -1,0 +1,372 @@
+[0.000000] (-) TimerEvent: {}
+[0.000374] (ros2_lam_interfaces) JobQueued: {'identifier': 'ros2_lam_interfaces', 'dependencies': OrderedDict()}
+[0.001733] (ros2_lam_interfaces) JobStarted: {'identifier': 'ros2_lam_interfaces'}
+[0.030264] (ros2_lam_interfaces) JobProgress: {'identifier': 'ros2_lam_interfaces', 'progress': 'cmake'}
+[0.032819] (ros2_lam_interfaces) JobProgress: {'identifier': 'ros2_lam_interfaces', 'progress': 'build'}
+[0.034085] (ros2_lam_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'antonino', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/antonino', 'OLDPWD': '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2213', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'antonino', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'antonino', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/antonino-desktop:@/tmp/.ICE-unix/2184,unix/antonino-desktop:/tmp/.ICE-unix/2184', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d2eab289_44a8_4bdb_9dc6_6a7b9ad84890', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.U9G3C3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:96522c9b-0259-4108-b94c-52a06f3c8ec1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages:/home/antonino/lidar_area_monitor/ros2_lam_interfaces:/home/antonino/lidar_area_monitor/ros2_lam_interfaces', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.097774] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.098919] (-) TimerEvent: {}
+[0.167281] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.199199] (-) TimerEvent: {}
+[0.299603] (-) TimerEvent: {}
+[0.401967] (-) TimerEvent: {}
+[0.443077] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.502267] (-) TimerEvent: {}
+[0.516572] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.536722] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.560671] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.593693] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.604049] (-) TimerEvent: {}
+[0.685753] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.703152] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.704987] (-) TimerEvent: {}
+[0.805338] (-) TimerEvent: {}
+[0.906611] (-) TimerEvent: {}
+[1.006918] (-) TimerEvent: {}
+[1.107281] (-) TimerEvent: {}
+[1.207783] (-) TimerEvent: {}
+[1.308382] (-) TimerEvent: {}
+[1.408975] (-) TimerEvent: {}
+[1.494824] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.509083] (-) TimerEvent: {}
+[1.609550] (-) TimerEvent: {}
+[1.709895] (-) TimerEvent: {}
+[1.810216] (-) TimerEvent: {}
+[1.910547] (-) TimerEvent: {}
+[2.010914] (-) TimerEvent: {}
+[2.054278] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.111144] (-) TimerEvent: {}
+[2.211966] (-) TimerEvent: {}
+[2.276774] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.280167] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[2.312045] (-) TimerEvent: {}
+[2.412367] (-) TimerEvent: {}
+[2.512793] (-) TimerEvent: {}
+[2.613164] (-) TimerEvent: {}
+[2.713594] (-) TimerEvent: {}
+[2.814018] (-) TimerEvent: {}
+[2.914546] (-) TimerEvent: {}
+[2.931517] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[2.998745] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[3.013876] (ros2_lam_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.014579] (-) TimerEvent: {}
+[3.054513] (ros2_lam_interfaces) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.055642] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces/rosidl_generator_c>;$<BUILD_INTERFACE:/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces/rosidl_typesupport_introspection_cpp>;/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces/rosidl_generator_c;/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces/rosidl_generator_py\n'}
+[3.055837] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.094255] (ros2_lam_interfaces) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.094542] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.098928] (ros2_lam_interfaces) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.099096] (ros2_lam_interfaces) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[3.109710] (ros2_lam_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.114704] (-) TimerEvent: {}
+[3.115011] (ros2_lam_interfaces) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.155324] (ros2_lam_interfaces) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.155613] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.160329] (ros2_lam_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.163077] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Configuring done (3.1s)\n'}
+[3.214829] (-) TimerEvent: {}
+[3.292331] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[3.314967] (-) TimerEvent: {}
+[3.346767] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces\n'}
+[3.415102] (-) TimerEvent: {}
+[3.445887] (ros2_lam_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[3.469322] (ros2_lam_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_ros2_lam_interfaces\n'}
+[3.515735] (-) TimerEvent: {}
+[3.617464] (-) TimerEvent: {}
+[3.720346] (-) TimerEvent: {}
+[3.820921] (-) TimerEvent: {}
+[3.909088] (ros2_lam_interfaces) StdoutLine: {'line': b'[  2%] Built target ros2_lam_interfaces__rosidl_generator_type_description\n'}
+[3.921040] (-) TimerEvent: {}
+[3.936675] (ros2_lam_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.984410] (ros2_lam_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.993326] (ros2_lam_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[4.021360] (-) TimerEvent: {}
+[4.038960] (ros2_lam_interfaces) StdoutLine: {'line': b'writing ros2_lam_interfaces.egg-info/PKG-INFO\n'}
+[4.041220] (ros2_lam_interfaces) StdoutLine: {'line': b'writing dependency_links to ros2_lam_interfaces.egg-info/dependency_links.txt\n'}
+[4.043926] (ros2_lam_interfaces) StdoutLine: {'line': b'writing top-level names to ros2_lam_interfaces.egg-info/top_level.txt\n'}
+[4.121485] (-) TimerEvent: {}
+[4.200815] (ros2_lam_interfaces) StdoutLine: {'line': b"reading manifest file 'ros2_lam_interfaces.egg-info/SOURCES.txt'\n"}
+[4.202614] (ros2_lam_interfaces) StdoutLine: {'line': b"writing manifest file 'ros2_lam_interfaces.egg-info/SOURCES.txt'\n"}
+[4.222517] (-) TimerEvent: {}
+[4.323085] (-) TimerEvent: {}
+[4.336289] (ros2_lam_interfaces) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_ros2_lam_interfaces_egg\n'}
+[4.423146] (-) TimerEvent: {}
+[4.523505] (-) TimerEvent: {}
+[4.623918] (-) TimerEvent: {}
+[4.724965] (-) TimerEvent: {}
+[4.748325] (ros2_lam_interfaces) StdoutLine: {'line': b'[  8%] Built target ros2_lam_interfaces__cpp\n'}
+[4.795498] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/ros2_lam_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros2_lam_interfaces/srv/detail/set_exclusion_area__description.c.o\x1b[0m\n'}
+[4.795910] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/ros2_lam_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros2_lam_interfaces/srv/detail/set_exclusion_area__type_support.c.o\x1b[0m\n'}
+[4.797208] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/ros2_lam_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros2_lam_interfaces/srv/detail/set_exclusion_area__functions.c.o\x1b[0m\n'}
+[4.825068] (-) TimerEvent: {}
+[4.927565] (-) TimerEvent: {}
+[5.028367] (-) TimerEvent: {}
+[5.069528] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libros2_lam_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[5.128550] (-) TimerEvent: {}
+[5.186427] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 20%] Built target ros2_lam_interfaces__rosidl_generator_c\n'}
+[5.216245] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.219136] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.219830] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.228699] (-) TimerEvent: {}
+[5.332943] (-) TimerEvent: {}
+[5.433430] (-) TimerEvent: {}
+[5.537238] (-) TimerEvent: {}
+[5.643005] (-) TimerEvent: {}
+[5.743723] (-) TimerEvent: {}
+[5.844551] (-) TimerEvent: {}
+[5.907727] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.915406] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/ros2_lam_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_lam_interfaces/srv/set_exclusion_area__type_support.cpp.o\x1b[0m\n'}
+[5.947924] (-) TimerEvent: {}
+[6.050345] (-) TimerEvent: {}
+[6.150977] (-) TimerEvent: {}
+[6.192648] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ros2_lam_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_lam_interfaces/srv/detail/dds_fastrtps/set_exclusion_area__type_support.cpp.o\x1b[0m\n'}
+[6.229398] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/ros2_lam_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_lam_interfaces/srv/detail/set_exclusion_area__type_support_c.cpp.o\x1b[0m\n'}
+[6.251164] (-) TimerEvent: {}
+[6.358139] (-) TimerEvent: {}
+[6.458773] (-) TimerEvent: {}
+[6.559315] (-) TimerEvent: {}
+[6.660524] (-) TimerEvent: {}
+[6.761363] (-) TimerEvent: {}
+[6.845582] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/ros2_lam_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_lam_interfaces/srv/detail/set_exclusion_area__type_support.c.o\x1b[0m\n'}
+[6.865766] (-) TimerEvent: {}
+[6.966485] (-) TimerEvent: {}
+[7.066948] (-) TimerEvent: {}
+[7.156248] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking C shared library libros2_lam_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.167106] (-) TimerEvent: {}
+[7.270101] (-) TimerEvent: {}
+[7.281742] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 47%] Built target ros2_lam_interfaces__rosidl_typesupport_introspection_c\n'}
+[7.326168] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.371375] (-) TimerEvent: {}
+[7.477077] (-) TimerEvent: {}
+[7.577550] (-) TimerEvent: {}
+[7.679430] (-) TimerEvent: {}
+[7.783309] (-) TimerEvent: {}
+[7.884136] (-) TimerEvent: {}
+[7.984730] (-) TimerEvent: {}
+[8.007958] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX shared library libros2_lam_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.086056] (-) TimerEvent: {}
+[8.186840] (-) TimerEvent: {}
+[8.288567] (-) TimerEvent: {}
+[8.391977] (-) TimerEvent: {}
+[8.421229] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 52%] Built target ros2_lam_interfaces__rosidl_typesupport_cpp\n'}
+[8.434073] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/ros2_lam_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_lam_interfaces/srv/set_exclusion_area__type_support.cpp.o\x1b[0m\n'}
+[8.468151] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[8.493079] (-) TimerEvent: {}
+[8.564976] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libros2_lam_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.593155] (-) TimerEvent: {}
+[8.693604] (-) TimerEvent: {}
+[8.733132] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libros2_lam_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.793770] (-) TimerEvent: {}
+[8.894335] (-) TimerEvent: {}
+[8.913367] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 64%] Built target ros2_lam_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[8.959498] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 64%] Built target ros2_lam_interfaces__rosidl_typesupport_c\n'}
+[8.994440] (-) TimerEvent: {}
+[9.094922] (-) TimerEvent: {}
+[9.187953] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libros2_lam_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.195012] (-) TimerEvent: {}
+[9.296140] (-) TimerEvent: {}
+[9.381500] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/ros2_lam_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_lam_interfaces/srv/detail/set_exclusion_area__type_support.cpp.o\x1b[0m\n'}
+[9.396305] (-) TimerEvent: {}
+[9.462535] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 70%] Built target ros2_lam_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[9.496556] (-) TimerEvent: {}
+[9.597481] (-) TimerEvent: {}
+[9.698059] (-) TimerEvent: {}
+[9.798542] (-) TimerEvent: {}
+[9.899295] (-) TimerEvent: {}
+[10.000283] (-) TimerEvent: {}
+[10.100921] (-) TimerEvent: {}
+[10.201434] (-) TimerEvent: {}
+[10.302333] (-) TimerEvent: {}
+[10.396778] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libros2_lam_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[10.402440] (-) TimerEvent: {}
+[10.502829] (-) TimerEvent: {}
+[10.603237] (-) TimerEvent: {}
+[10.620754] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 73%] Built target ros2_lam_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[10.669928] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 73%] Built target ros2_lam_interfaces\n'}
+[10.703353] (-) TimerEvent: {}
+[10.725583] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.803463] (-) TimerEvent: {}
+[10.904007] (-) TimerEvent: {}
+[11.004831] (-) TimerEvent: {}
+[11.105287] (-) TimerEvent: {}
+[11.205613] (-) TimerEvent: {}
+[11.305908] (-) TimerEvent: {}
+[11.409138] (-) TimerEvent: {}
+[11.492960] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 76%] Built target ros2_lam_interfaces__py\n'}
+[11.509266] (-) TimerEvent: {}
+[11.540792] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/ros2_lam_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros2_lam_interfaces/srv/_set_exclusion_area_s.c.o\x1b[0m\n'}
+[11.609550] (-) TimerEvent: {}
+[11.710334] (-) TimerEvent: {}
+[11.810696] (-) TimerEvent: {}
+[11.911108] (-) TimerEvent: {}
+[11.981248] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libros2_lam_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[12.011231] (-) TimerEvent: {}
+[12.109764] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 82%] Built target ros2_lam_interfaces__rosidl_generator_py\n'}
+[12.111310] (-) TimerEvent: {}
+[12.164452] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/ros2_lam_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/ros2_lam_interfaces/_ros2_lam_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[12.164911] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/ros2_lam_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/ros2_lam_interfaces/_ros2_lam_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[12.211462] (-) TimerEvent: {}
+[12.312005] (-) TimerEvent: {}
+[12.414995] (-) TimerEvent: {}
+[12.457301] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/ros2_lam_interfaces/ros2_lam_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[12.464102] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/ros2_lam_interfaces/ros2_lam_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[12.515156] (-) TimerEvent: {}
+[12.602357] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 94%] Built target ros2_lam_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[12.608627] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 94%] Built target ros2_lam_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[12.615219] (-) TimerEvent: {}
+[12.656279] (ros2_lam_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/ros2_lam_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/ros2_lam_interfaces/_ros2_lam_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[12.715388] (-) TimerEvent: {}
+[12.815785] (-) TimerEvent: {}
+[12.885689] (ros2_lam_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/ros2_lam_interfaces/ros2_lam_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[12.915938] (-) TimerEvent: {}
+[12.967212] (ros2_lam_interfaces) StdoutLine: {'line': b'[100%] Built target ros2_lam_interfaces_s__rosidl_typesupport_c\n'}
+[12.999769] (ros2_lam_interfaces) CommandEnded: {'returncode': 0}
+[13.001101] (ros2_lam_interfaces) JobProgress: {'identifier': 'ros2_lam_interfaces', 'progress': 'install'}
+[13.016198] (-) TimerEvent: {}
+[13.023818] (ros2_lam_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces'], 'cwd': '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'antonino', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/antonino', 'OLDPWD': '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2213', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'antonino', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'antonino', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/antonino-desktop:@/tmp/.ICE-unix/2184,unix/antonino-desktop:/tmp/.ICE-unix/2184', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d2eab289_44a8_4bdb_9dc6_6a7b9ad84890', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.U9G3C3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:96522c9b-0259-4108-b94c-52a06f3c8ec1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages:/home/antonino/lidar_area_monitor/ros2_lam_interfaces:/home/antonino/lidar_area_monitor/ros2_lam_interfaces', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[13.043556] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.044339] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ament_index/resource_index/rosidl_interfaces/ros2_lam_interfaces\n'}
+[13.044530] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/srv/SetExclusionArea.json\n'}
+[13.044680] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces\n'}
+[13.044814] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv\n'}
+[13.044955] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/set_exclusion_area.h\n'}
+[13.045063] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail\n'}
+[13.045180] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__functions.h\n'}
+[13.045295] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__type_support.h\n'}
+[13.045482] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__functions.c\n'}
+[13.045637] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__description.c\n'}
+[13.045815] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__type_support.c\n'}
+[13.047344] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__struct.h\n'}
+[13.047774] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/msg\n'}
+[13.048112] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[13.048544] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/environment/library_path.sh\n'}
+[13.049059] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/environment/library_path.dsv\n'}
+[13.049448] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_generator_c.so\n'}
+[13.050347] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_generator_c.so" to ""\n'}
+[13.050649] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces\n'}
+[13.051073] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv\n'}
+[13.051280] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail\n'}
+[13.051432] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__rosidl_typesupport_fastrtps_c.h\n'}
+[13.051583] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/msg\n'}
+[13.051718] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[13.051824] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[13.052609] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[13.052980] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces\n'}
+[13.053753] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv\n'}
+[13.054457] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/set_exclusion_area.hpp\n'}
+[13.055700] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail\n'}
+[13.056560] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__builder.hpp\n'}
+[13.056803] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__type_support.hpp\n'}
+[13.056965] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__struct.hpp\n'}
+[13.057073] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__traits.hpp\n'}
+[13.057166] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/msg\n'}
+[13.057582] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[13.057921] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces\n'}
+[13.059014] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv\n'}
+[13.059298] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail\n'}
+[13.059500] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.059670] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/dds_fastrtps\n'}
+[13.060298] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/msg\n'}
+[13.060699] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[13.060948] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.061191] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[13.061301] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces\n'}
+[13.061459] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv\n'}
+[13.061558] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail\n'}
+[13.061719] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__rosidl_typesupport_introspection_c.h\n'}
+[13.061827] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__type_support.c\n'}
+[13.062235] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/msg\n'}
+[13.062398] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[13.062523] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[13.062914] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[13.063435] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_typesupport_c.so\n'}
+[13.063684] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[13.064041] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces\n'}
+[13.064419] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv\n'}
+[13.064807] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail\n'}
+[13.064990] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__type_support.cpp\n'}
+[13.065193] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.065368] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[13.065559] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[13.065924] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_typesupport_cpp.so\n'}
+[13.066689] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[13.067136] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/environment/pythonpath.sh\n'}
+[13.067355] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/environment/pythonpath.dsv\n'}
+[13.067498] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces-0.0.1-py3.12.egg-info\n'}
+[13.067683] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces-0.0.1-py3.12.egg-info/dependency_links.txt\n'}
+[13.067791] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces-0.0.1-py3.12.egg-info/top_level.txt\n'}
+[13.068126] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces-0.0.1-py3.12.egg-info/SOURCES.txt\n'}
+[13.068258] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces-0.0.1-py3.12.egg-info/PKG-INFO\n'}
+[13.068368] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces\n'}
+[13.068460] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/srv\n'}
+[13.068547] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/srv/_set_exclusion_area_s.c\n'}
+[13.068630] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/srv/_set_exclusion_area.py\n'}
+[13.068730] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/srv/__init__.py\n'}
+[13.068819] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/ros2_lam_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[13.068949] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/_ros2_lam_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[13.069049] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/__init__.py\n'}
+[13.069137] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/ros2_lam_interfaces_s__rosidl_typesupport_c.so\n'}
+[13.069218] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/_ros2_lam_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[13.069310] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/ros2_lam_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[13.069412] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/_ros2_lam_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[13.117067] (-) TimerEvent: {}
+[13.183049] (ros2_lam_interfaces) StdoutLine: {'line': b"Listing '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces'...\n"}
+[13.184175] (ros2_lam_interfaces) StdoutLine: {'line': b"Compiling '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/__init__.py'...\n"}
+[13.184388] (ros2_lam_interfaces) StdoutLine: {'line': b"Listing '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/srv'...\n"}
+[13.184512] (ros2_lam_interfaces) StdoutLine: {'line': b"Compiling '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/srv/__init__.py'...\n"}
+[13.184619] (ros2_lam_interfaces) StdoutLine: {'line': b"Compiling '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/srv/_set_exclusion_area.py'...\n"}
+[13.205375] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/ros2_lam_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[13.206031] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/ros2_lam_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[13.206478] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/ros2_lam_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[13.207162] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/ros2_lam_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[13.207563] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/ros2_lam_interfaces_s__rosidl_typesupport_c.so\n'}
+[13.208536] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/ros2_lam_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[13.209234] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_generator_py.so\n'}
+[13.210179] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_generator_py.so" to ""\n'}
+[13.210652] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/srv/SetExclusionArea.idl\n'}
+[13.211044] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/srv/SetExclusionArea.srv\n'}
+[13.211496] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/srv\n'}
+[13.212070] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/srv/SetExclusionArea.srv\n'}
+[13.212660] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ament_index/resource_index/package_run_dependencies/ros2_lam_interfaces\n'}
+[13.212993] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ament_index/resource_index/parent_prefix_path/ros2_lam_interfaces\n'}
+[13.213242] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/environment/ament_prefix_path.sh\n'}
+[13.213584] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/environment/ament_prefix_path.dsv\n'}
+[13.213992] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/environment/path.sh\n'}
+[13.214250] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/environment/path.dsv\n'}
+[13.214500] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/local_setup.bash\n'}
+[13.214734] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/local_setup.sh\n'}
+[13.214980] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/local_setup.zsh\n'}
+[13.215209] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/local_setup.dsv\n'}
+[13.215655] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/package.dsv\n'}
+[13.216968] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ament_index/resource_index/packages/ros2_lam_interfaces\n'}
+[13.217224] (-) TimerEvent: {}
+[13.217429] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/export_ros2_lam_interfaces__rosidl_generator_cExport.cmake\n'}
+[13.217674] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/export_ros2_lam_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[13.217968] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/export_ros2_lam_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[13.218188] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/export_ros2_lam_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[13.218775] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/export_ros2_lam_interfaces__rosidl_generator_cppExport.cmake\n'}
+[13.220216] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/export_ros2_lam_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[13.220886] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/export_ros2_lam_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[13.224500] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/ros2_lam_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[13.225011] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/ros2_lam_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[13.225230] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/ros2_lam_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[13.225412] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/ros2_lam_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[13.225572] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/ros2_lam_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[13.225724] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/ros2_lam_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[13.226365] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/ros2_lam_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[13.226828] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/ros2_lam_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[13.227914] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/export_ros2_lam_interfaces__rosidl_generator_pyExport.cmake\n'}
+[13.228117] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/export_ros2_lam_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[13.228268] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[13.228379] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.228529] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.228628] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.228782] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.228910] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[13.229082] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[13.229192] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/ros2_lam_interfacesConfig.cmake\n'}
+[13.229287] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/ros2_lam_interfacesConfig-version.cmake\n'}
+[13.229405] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/package.xml\n'}
+[13.233935] (ros2_lam_interfaces) CommandEnded: {'returncode': 0}
+[13.309675] (ros2_lam_interfaces) JobEnded: {'identifier': 'ros2_lam_interfaces', 'rc': 0}
+[13.312288] (-) EventReactorShutdown: {}

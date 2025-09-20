@@ -1,0 +1,6 @@
+{
+  "package_name": "ros2_lam_interfaces",
+  "non_idl_tuples": [
+    "/home/antonino/lidar_area_monitor/ros2_lam_interfaces:srv/SetExclusionArea.srv"
+  ]
+}

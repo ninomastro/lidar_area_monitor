@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros2_lam_interfaces/srv/SetExclusionArea.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module ros2_lam_interfaces {
+  module srv {
+    struct SetExclusionArea_Request {
+      sequence<geometry_msgs::msg::Point> point_list;
+    };
+    struct SetExclusionArea_Response {
+      boolean is_ok;
+
+      string error_msg;
+    };
+  };
+};

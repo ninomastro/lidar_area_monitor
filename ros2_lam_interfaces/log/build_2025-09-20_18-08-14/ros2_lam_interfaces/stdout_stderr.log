@@ -1,0 +1,8 @@
+[33mCMake Warning:
+  Ignoring extra path from command line:
+
+   "/home/antonino/lidar_area_monitor/ros2_lam_interfaces"
+
+[0m
+[0mCMake Error: The source directory "/home/antonino/lidar_area_monitor/ros2_lam_interfaces" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.[0m

@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import LaserScan, PointCloud2, PointField
-from visualization_msgs.msg import MarkerArray, Marker
+from visualization_msgs.msg import Marker, MarkerArray
 from std_msgs.msg import Header
 
 from shapely import Polygon, Point
@@ -40,6 +40,36 @@ class LidarAreaMonitor(Node):
             self.get_logger().error(f"{ex=}")
             response.is_ok = False
             response.error_msg = f"{ex=}"
+    
+    def create_exclusion_marker(self):
+        marker = Marker()
+        marker.header.frame_id = "base_link"
+        marker.header.stamp = self.get_clock().now().to_msg()
+        marker.ns = "exclusion_area"
+        marker_array = MarkerArray()
+        marker.id = 0
+        marker.type = Marker.LINE_STRIP
+        marker.action = Marker.ADD
+        marker.pose.orientation.w = 1.0
+        marker.scale.x = 0.1  # Spessore della linea
+        marker.color.r = 1.0
+        marker.color.g = 0.0
+        marker.color.b = 0.0
+        marker.color.a = 1.0
+    
+        # Aggiungi i punti del poligono
+        for point in self.poly_area.exterior.coords:
+            marker.points.append(Point(x=point[0], y=point[1], z=0.0))
+
+        marker.points.append(marker.points[0])  # Chiudi il poligono
+        marker_array.markers.append(marker)
+        self.marker_pub = self.create_publisher(MarkerArray, "/visualization_marker_array", 10)
+
+        # Esegui la pubblicazione
+        self.marker_pub.publish(self.create_exclusion_marker())
+
+        return marker_array
+
     
     def scan_callback(self, msg : LaserScan):
         #self.latest_msg = msg

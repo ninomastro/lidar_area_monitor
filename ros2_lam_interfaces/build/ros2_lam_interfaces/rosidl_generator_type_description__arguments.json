@@ -1,0 +1,13 @@
+{
+  "package_name": "ros2_lam_interfaces",
+  "output_dir": "/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces/rosidl_generator_type_description/ros2_lam_interfaces",
+  "idl_tuples": [
+    "/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces/rosidl_adapter/ros2_lam_interfaces:srv/SetExclusionArea.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

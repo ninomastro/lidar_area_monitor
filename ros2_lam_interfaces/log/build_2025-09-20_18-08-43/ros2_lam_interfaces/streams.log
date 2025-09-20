@@ -1,0 +1,31 @@
+[0.034s] Invoking command in '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/antonino/lidar_area_monitor/ros2_lam_interfaces -DCMAKE_INSTALL_PREFIX=/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces
+[0.502s] -- The C compiler identification is GNU 13.3.0
+[0.952s] -- The CXX compiler identification is GNU 13.3.0
+[1.013s] -- Detecting C compiler ABI info
+[1.330s] -- Detecting C compiler ABI info - done
+[1.345s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.352s] -- Detecting C compile features
+[1.353s] -- Detecting C compile features - done
+[1.379s] -- Detecting CXX compiler ABI info
+[1.649s] -- Detecting CXX compiler ABI info - done
+[1.667s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.669s] -- Detecting CXX compile features
+[1.669s] -- Detecting CXX compile features - done
+[1.697s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.046s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.350s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.472s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.522s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.632s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.683s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.828s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.861s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.460s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:192 (message):
+[3.460s]   rosidl_generate_interfaces() the passed dependency 'ADD_LINTERS' has not
+[3.460s]   been found before using find_package()
+[3.460s] Call Stack (most recent call first):
+[3.461s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[3.461s] 
+[3.461s] [0m
+[3.462s] -- Configuring incomplete, errors occurred!
+[3.485s] Invoked command in '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/antonino/lidar_area_monitor/ros2_lam_interfaces -DCMAKE_INSTALL_PREFIX=/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces

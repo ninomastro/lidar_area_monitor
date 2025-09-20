@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ros2_lam_interfaces/srv/SetExclusionArea_Response",
+      "fields": [
+        {
+          "name": "is_ok",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "error_msg",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "ros2_lam_interfaces/srv/SetExclusionArea_Response",
+      "hash_string": "RIHS01_8888ca5a2d2a246b319021a61c71889fc0e21c41081fede1e5883024a6072f93"
+    }
+  ]
+}

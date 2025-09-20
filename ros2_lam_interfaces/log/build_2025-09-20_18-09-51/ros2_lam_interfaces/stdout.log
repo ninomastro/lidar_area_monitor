@@ -1,0 +1,229 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces/rosidl_generator_c>;$<BUILD_INTERFACE:/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces/rosidl_typesupport_introspection_cpp>;/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces/rosidl_generator_c;/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces/rosidl_generator_py
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (3.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces
+[  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  2%] Built target ament_cmake_python_copy_ros2_lam_interfaces
+[  2%] Built target ros2_lam_interfaces__rosidl_generator_type_description
+[  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+running egg_info
+writing ros2_lam_interfaces.egg-info/PKG-INFO
+writing dependency_links to ros2_lam_interfaces.egg-info/dependency_links.txt
+writing top-level names to ros2_lam_interfaces.egg-info/top_level.txt
+reading manifest file 'ros2_lam_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'ros2_lam_interfaces.egg-info/SOURCES.txt'
+[  8%] Built target ament_cmake_python_build_ros2_lam_interfaces_egg
+[  8%] Built target ros2_lam_interfaces__cpp
+[ 14%] [32mBuilding C object CMakeFiles/ros2_lam_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros2_lam_interfaces/srv/detail/set_exclusion_area__description.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/ros2_lam_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros2_lam_interfaces/srv/detail/set_exclusion_area__type_support.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/ros2_lam_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros2_lam_interfaces/srv/detail/set_exclusion_area__functions.c.o[0m
+[ 20%] [32m[1mLinking C shared library libros2_lam_interfaces__rosidl_generator_c.so[0m
+[ 20%] Built target ros2_lam_interfaces__rosidl_generator_c
+[ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/ros2_lam_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_lam_interfaces/srv/set_exclusion_area__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/ros2_lam_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_lam_interfaces/srv/detail/dds_fastrtps/set_exclusion_area__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/ros2_lam_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_lam_interfaces/srv/detail/set_exclusion_area__type_support_c.cpp.o[0m
+[ 44%] [32mBuilding C object CMakeFiles/ros2_lam_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_lam_interfaces/srv/detail/set_exclusion_area__type_support.c.o[0m
+[ 47%] [32m[1mLinking C shared library libros2_lam_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 47%] Built target ros2_lam_interfaces__rosidl_typesupport_introspection_c
+[ 50%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 52%] [32m[1mLinking CXX shared library libros2_lam_interfaces__rosidl_typesupport_cpp.so[0m
+[ 52%] Built target ros2_lam_interfaces__rosidl_typesupport_cpp
+[ 55%] [32mBuilding CXX object CMakeFiles/ros2_lam_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_lam_interfaces/srv/set_exclusion_area__type_support.cpp.o[0m
+[ 58%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 61%] [32m[1mLinking CXX shared library libros2_lam_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 64%] [32m[1mLinking CXX shared library libros2_lam_interfaces__rosidl_typesupport_c.so[0m
+[ 64%] Built target ros2_lam_interfaces__rosidl_typesupport_fastrtps_c
+[ 64%] Built target ros2_lam_interfaces__rosidl_typesupport_c
+[ 67%] [32m[1mLinking CXX shared library libros2_lam_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/ros2_lam_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_lam_interfaces/srv/detail/set_exclusion_area__type_support.cpp.o[0m
+[ 70%] Built target ros2_lam_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 73%] [32m[1mLinking CXX shared library libros2_lam_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 73%] Built target ros2_lam_interfaces__rosidl_typesupport_introspection_cpp
+[ 73%] Built target ros2_lam_interfaces
+[ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 76%] Built target ros2_lam_interfaces__py
+[ 79%] [32mBuilding C object CMakeFiles/ros2_lam_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros2_lam_interfaces/srv/_set_exclusion_area_s.c.o[0m
+[ 82%] [32m[1mLinking C shared library libros2_lam_interfaces__rosidl_generator_py.so[0m
+[ 82%] Built target ros2_lam_interfaces__rosidl_generator_py
+[ 88%] [32mBuilding C object CMakeFiles/ros2_lam_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/ros2_lam_interfaces/_ros2_lam_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/ros2_lam_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/ros2_lam_interfaces/_ros2_lam_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 91%] [32m[1mLinking C shared module rosidl_generator_py/ros2_lam_interfaces/ros2_lam_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[ 94%] [32m[1mLinking C shared module rosidl_generator_py/ros2_lam_interfaces/ros2_lam_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 94%] Built target ros2_lam_interfaces_s__rosidl_typesupport_fastrtps_c
+[ 94%] Built target ros2_lam_interfaces_s__rosidl_typesupport_introspection_c
+[ 97%] [32mBuilding C object CMakeFiles/ros2_lam_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/ros2_lam_interfaces/_ros2_lam_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/ros2_lam_interfaces/ros2_lam_interfaces_s__rosidl_typesupport_c.so[0m
+[100%] Built target ros2_lam_interfaces_s__rosidl_typesupport_c
+-- Install configuration: ""
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ament_index/resource_index/rosidl_interfaces/ros2_lam_interfaces
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/srv/SetExclusionArea.json
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/set_exclusion_area.h
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__functions.h
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__type_support.h
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__functions.c
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__description.c
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__type_support.c
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__struct.h
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/msg
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/environment/library_path.sh
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/environment/library_path.dsv
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces
+-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv
+-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/msg
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces
+-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/set_exclusion_area.hpp
+-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__builder.hpp
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__type_support.hpp
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__struct.hpp
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__traits.hpp
+-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/msg
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces
+-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv
+-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/dds_fastrtps
+-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/msg
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces
+-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv
+-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__rosidl_typesupport_introspection_c.h
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__type_support.c
+-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/msg
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces
+-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv
+-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__type_support.cpp
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/include/ros2_lam_interfaces/ros2_lam_interfaces/srv/detail/set_exclusion_area__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/environment/pythonpath.sh
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/environment/pythonpath.dsv
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces-0.0.1-py3.12.egg-info
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces-0.0.1-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces-0.0.1-py3.12.egg-info/top_level.txt
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces-0.0.1-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces-0.0.1-py3.12.egg-info/PKG-INFO
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/srv
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/srv/_set_exclusion_area_s.c
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/srv/_set_exclusion_area.py
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/srv/__init__.py
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/ros2_lam_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/_ros2_lam_interfaces_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/__init__.py
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/ros2_lam_interfaces_s__rosidl_typesupport_c.so
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/_ros2_lam_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/ros2_lam_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/_ros2_lam_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+Listing '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces'...
+Compiling '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/__init__.py'...
+Listing '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/srv'...
+Compiling '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/srv/__init__.py'...
+Compiling '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/srv/_set_exclusion_area.py'...
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/ros2_lam_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/ros2_lam_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/ros2_lam_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/ros2_lam_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/ros2_lam_interfaces_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/python3.12/site-packages/ros2_lam_interfaces/ros2_lam_interfaces_s__rosidl_typesupport_c.so" to ""
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/lib/libros2_lam_interfaces__rosidl_generator_py.so" to ""
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/srv/SetExclusionArea.idl
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/srv/SetExclusionArea.srv
+-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/srv
+-- Up-to-date: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/srv/SetExclusionArea.srv
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ament_index/resource_index/package_run_dependencies/ros2_lam_interfaces
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ament_index/resource_index/parent_prefix_path/ros2_lam_interfaces
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/environment/path.sh
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/environment/path.dsv
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/local_setup.bash
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/local_setup.sh
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/local_setup.zsh
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/local_setup.dsv
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/package.dsv
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ament_index/resource_index/packages/ros2_lam_interfaces
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/export_ros2_lam_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/export_ros2_lam_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/export_ros2_lam_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/export_ros2_lam_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/export_ros2_lam_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/export_ros2_lam_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/export_ros2_lam_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/ros2_lam_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/ros2_lam_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/ros2_lam_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/ros2_lam_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/ros2_lam_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/ros2_lam_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/ros2_lam_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/ros2_lam_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/export_ros2_lam_interfaces__rosidl_generator_pyExport.cmake
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/export_ros2_lam_interfaces__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/ros2_lam_interfacesConfig.cmake
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/cmake/ros2_lam_interfacesConfig-version.cmake
+-- Installing: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces/share/ros2_lam_interfaces/package.xml

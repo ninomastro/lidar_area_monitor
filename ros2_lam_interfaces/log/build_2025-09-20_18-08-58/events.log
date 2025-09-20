@@ -1,0 +1,286 @@
+[0.000000] (-) TimerEvent: {}
+[0.000835] (ros2_lam_interfaces) JobQueued: {'identifier': 'ros2_lam_interfaces', 'dependencies': OrderedDict()}
+[0.001909] (ros2_lam_interfaces) JobStarted: {'identifier': 'ros2_lam_interfaces'}
+[0.024374] (ros2_lam_interfaces) JobProgress: {'identifier': 'ros2_lam_interfaces', 'progress': 'cmake'}
+[0.025776] (ros2_lam_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/antonino/lidar_area_monitor/ros2_lam_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces'], 'cwd': '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'antonino', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/antonino', 'OLDPWD': '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2213', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'antonino', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'antonino', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/antonino-desktop:@/tmp/.ICE-unix/2184,unix/antonino-desktop:/tmp/.ICE-unix/2184', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d2eab289_44a8_4bdb_9dc6_6a7b9ad84890', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.U9G3C3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:96522c9b-0259-4108-b94c-52a06f3c8ec1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages:/home/antonino/lidar_area_monitor/ros2_lam_interfaces:/home/antonino/lidar_area_monitor/ros2_lam_interfaces', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.062730] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099780] (-) TimerEvent: {}
+[0.200240] (-) TimerEvent: {}
+[0.300858] (-) TimerEvent: {}
+[0.401249] (-) TimerEvent: {}
+[0.502326] (-) TimerEvent: {}
+[0.603890] (-) TimerEvent: {}
+[0.649006] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.698103] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.703920] (-) TimerEvent: {}
+[0.718576] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.735788] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.762804] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.804225] (-) TimerEvent: {}
+[0.829728] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.844962] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.904345] (-) TimerEvent: {}
+[1.004916] (-) TimerEvent: {}
+[1.105266] (-) TimerEvent: {}
+[1.205612] (-) TimerEvent: {}
+[1.305966] (-) TimerEvent: {}
+[1.406321] (-) TimerEvent: {}
+[1.506733] (-) TimerEvent: {}
+[1.607239] (-) TimerEvent: {}
+[1.708053] (-) TimerEvent: {}
+[1.808500] (-) TimerEvent: {}
+[1.908861] (-) TimerEvent: {}
+[2.009200] (-) TimerEvent: {}
+[2.109544] (-) TimerEvent: {}
+[2.209931] (-) TimerEvent: {}
+[2.298215] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.310205] (-) TimerEvent: {}
+[2.411022] (-) TimerEvent: {}
+[2.511521] (-) TimerEvent: {}
+[2.611911] (-) TimerEvent: {}
+[2.712305] (-) TimerEvent: {}
+[2.812686] (-) TimerEvent: {}
+[2.913039] (-) TimerEvent: {}
+[3.013510] (-) TimerEvent: {}
+[3.114245] (-) TimerEvent: {}
+[3.214725] (-) TimerEvent: {}
+[3.315066] (-) TimerEvent: {}
+[3.415417] (-) TimerEvent: {}
+[3.515832] (-) TimerEvent: {}
+[3.616189] (-) TimerEvent: {}
+[3.716903] (-) TimerEvent: {}
+[3.818511] (-) TimerEvent: {}
+[3.919010] (-) TimerEvent: {}
+[4.019354] (-) TimerEvent: {}
+[4.119715] (-) TimerEvent: {}
+[4.201091] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.219836] (-) TimerEvent: {}
+[4.320202] (-) TimerEvent: {}
+[4.420888] (-) TimerEvent: {}
+[4.522398] (-) TimerEvent: {}
+[4.623300] (-) TimerEvent: {}
+[4.724194] (-) TimerEvent: {}
+[4.824514] (-) TimerEvent: {}
+[4.924835] (-) TimerEvent: {}
+[4.955192] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.968828] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[5.024988] (-) TimerEvent: {}
+[5.125701] (-) TimerEvent: {}
+[5.227242] (-) TimerEvent: {}
+[5.282476] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[5.327516] (-) TimerEvent: {}
+[5.428543] (-) TimerEvent: {}
+[5.528995] (-) TimerEvent: {}
+[5.630553] (-) TimerEvent: {}
+[5.730932] (-) TimerEvent: {}
+[5.834092] (-) TimerEvent: {}
+[5.937968] (-) TimerEvent: {}
+[6.044074] (-) TimerEvent: {}
+[6.144476] (-) TimerEvent: {}
+[6.244927] (-) TimerEvent: {}
+[6.345799] (-) TimerEvent: {}
+[6.446562] (-) TimerEvent: {}
+[6.518504] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[6.546692] (-) TimerEvent: {}
+[6.647033] (-) TimerEvent: {}
+[6.657305] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[6.726804] (ros2_lam_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[6.744796] (ros2_lam_interfaces) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.745994] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces/rosidl_generator_c>;$<BUILD_INTERFACE:/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces/rosidl_typesupport_introspection_cpp>;/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces/rosidl_generator_c;/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces/rosidl_generator_py\n'}
+[6.746179] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.747092] (-) TimerEvent: {}
+[6.769621] (ros2_lam_interfaces) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[6.770080] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[6.778571] (ros2_lam_interfaces) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.778837] (ros2_lam_interfaces) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[6.783179] (ros2_lam_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.787446] (ros2_lam_interfaces) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[6.803795] (ros2_lam_interfaces) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.804068] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.812453] (ros2_lam_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.818936] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Configuring done (6.8s)\n'}
+[6.847220] (-) TimerEvent: {}
+[6.907855] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[6.935043] (ros2_lam_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces\n'}
+[6.947419] (-) TimerEvent: {}
+[6.957062] (ros2_lam_interfaces) CommandEnded: {'returncode': 0}
+[6.959145] (ros2_lam_interfaces) JobProgress: {'identifier': 'ros2_lam_interfaces', 'progress': 'build'}
+[6.961614] (ros2_lam_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'antonino', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/antonino', 'OLDPWD': '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2213', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'antonino', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'antonino', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/antonino-desktop:@/tmp/.ICE-unix/2184,unix/antonino-desktop:/tmp/.ICE-unix/2184', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d2eab289_44a8_4bdb_9dc6_6a7b9ad84890', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.U9G3C3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:96522c9b-0259-4108-b94c-52a06f3c8ec1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages:/home/antonino/lidar_area_monitor/ros2_lam_interfaces:/home/antonino/lidar_area_monitor/ros2_lam_interfaces', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[7.048351] (-) TimerEvent: {}
+[7.090234] (ros2_lam_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[7.144837] (ros2_lam_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_ros2_lam_interfaces\n'}
+[7.151445] (-) TimerEvent: {}
+[7.252840] (-) TimerEvent: {}
+[7.356965] (-) TimerEvent: {}
+[7.459350] (-) TimerEvent: {}
+[7.560422] (-) TimerEvent: {}
+[7.661098] (-) TimerEvent: {}
+[7.716026] (ros2_lam_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[7.717975] (ros2_lam_interfaces) StdoutLine: {'line': b'creating ros2_lam_interfaces.egg-info\n'}
+[7.757705] (ros2_lam_interfaces) StdoutLine: {'line': b'writing ros2_lam_interfaces.egg-info/PKG-INFO\n'}
+[7.758785] (ros2_lam_interfaces) StdoutLine: {'line': b'writing dependency_links to ros2_lam_interfaces.egg-info/dependency_links.txt\n'}
+[7.759122] (ros2_lam_interfaces) StdoutLine: {'line': b'writing top-level names to ros2_lam_interfaces.egg-info/top_level.txt\n'}
+[7.759391] (ros2_lam_interfaces) StdoutLine: {'line': b"writing manifest file 'ros2_lam_interfaces.egg-info/SOURCES.txt'\n"}
+[7.761604] (-) TimerEvent: {}
+[7.862146] (-) TimerEvent: {}
+[7.871373] (ros2_lam_interfaces) StdoutLine: {'line': b"reading manifest file 'ros2_lam_interfaces.egg-info/SOURCES.txt'\n"}
+[7.872599] (ros2_lam_interfaces) StdoutLine: {'line': b"writing manifest file 'ros2_lam_interfaces.egg-info/SOURCES.txt'\n"}
+[7.962277] (-) TimerEvent: {}
+[7.974082] (ros2_lam_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_ros2_lam_interfaces_egg\n'}
+[8.062408] (-) TimerEvent: {}
+[8.162771] (-) TimerEvent: {}
+[8.263364] (-) TimerEvent: {}
+[8.364143] (-) TimerEvent: {}
+[8.464982] (-) TimerEvent: {}
+[8.565507] (-) TimerEvent: {}
+[8.665889] (-) TimerEvent: {}
+[8.766243] (-) TimerEvent: {}
+[8.866616] (-) TimerEvent: {}
+[8.967141] (-) TimerEvent: {}
+[9.068117] (-) TimerEvent: {}
+[9.168806] (-) TimerEvent: {}
+[9.269474] (-) TimerEvent: {}
+[9.370176] (-) TimerEvent: {}
+[9.471905] (-) TimerEvent: {}
+[9.572359] (-) TimerEvent: {}
+[9.673517] (-) TimerEvent: {}
+[9.774391] (-) TimerEvent: {}
+[9.875328] (-) TimerEvent: {}
+[9.976243] (-) TimerEvent: {}
+[10.077099] (-) TimerEvent: {}
+[10.177866] (-) TimerEvent: {}
+[10.278782] (-) TimerEvent: {}
+[10.383405] (-) TimerEvent: {}
+[10.484383] (-) TimerEvent: {}
+[10.585428] (-) TimerEvent: {}
+[10.686325] (-) TimerEvent: {}
+[10.787341] (-) TimerEvent: {}
+[10.888282] (-) TimerEvent: {}
+[10.989392] (-) TimerEvent: {}
+[11.090239] (-) TimerEvent: {}
+[11.191196] (-) TimerEvent: {}
+[11.292065] (-) TimerEvent: {}
+[11.393594] (-) TimerEvent: {}
+[11.494945] (-) TimerEvent: {}
+[11.595833] (-) TimerEvent: {}
+[11.696934] (-) TimerEvent: {}
+[11.797845] (-) TimerEvent: {}
+[11.898989] (-) TimerEvent: {}
+[11.999820] (-) TimerEvent: {}
+[12.100969] (-) TimerEvent: {}
+[12.205143] (-) TimerEvent: {}
+[12.306028] (-) TimerEvent: {}
+[12.407188] (-) TimerEvent: {}
+[12.508557] (-) TimerEvent: {}
+[12.609825] (-) TimerEvent: {}
+[12.711316] (-) TimerEvent: {}
+[12.812237] (-) TimerEvent: {}
+[12.913111] (-) TimerEvent: {}
+[13.014225] (-) TimerEvent: {}
+[13.115804] (-) TimerEvent: {}
+[13.216741] (-) TimerEvent: {}
+[13.317543] (-) TimerEvent: {}
+[13.418569] (-) TimerEvent: {}
+[13.519428] (-) TimerEvent: {}
+[13.620485] (-) TimerEvent: {}
+[13.721929] (-) TimerEvent: {}
+[13.822768] (-) TimerEvent: {}
+[13.923562] (-) TimerEvent: {}
+[14.024760] (-) TimerEvent: {}
+[14.126371] (-) TimerEvent: {}
+[14.227191] (-) TimerEvent: {}
+[14.328161] (-) TimerEvent: {}
+[14.430058] (-) TimerEvent: {}
+[14.531208] (-) TimerEvent: {}
+[14.631882] (-) TimerEvent: {}
+[14.732221] (-) TimerEvent: {}
+[14.832854] (-) TimerEvent: {}
+[14.934381] (-) TimerEvent: {}
+[15.035783] (-) TimerEvent: {}
+[15.138758] (-) TimerEvent: {}
+[15.239413] (-) TimerEvent: {}
+[15.340231] (-) TimerEvent: {}
+[15.440796] (-) TimerEvent: {}
+[15.541893] (-) TimerEvent: {}
+[15.642774] (-) TimerEvent: {}
+[15.743450] (-) TimerEvent: {}
+[15.844291] (-) TimerEvent: {}
+[15.944744] (-) TimerEvent: {}
+[16.045216] (-) TimerEvent: {}
+[16.145901] (-) TimerEvent: {}
+[16.246708] (-) TimerEvent: {}
+[16.347651] (-) TimerEvent: {}
+[16.449898] (-) TimerEvent: {}
+[16.551131] (-) TimerEvent: {}
+[16.651500] (-) TimerEvent: {}
+[16.751972] (-) TimerEvent: {}
+[16.852907] (-) TimerEvent: {}
+[16.954239] (-) TimerEvent: {}
+[17.055937] (-) TimerEvent: {}
+[17.157300] (-) TimerEvent: {}
+[17.257948] (-) TimerEvent: {}
+[17.358648] (-) TimerEvent: {}
+[17.459216] (-) TimerEvent: {}
+[17.561188] (-) TimerEvent: {}
+[17.664245] (-) TimerEvent: {}
+[17.765477] (-) TimerEvent: {}
+[17.866284] (-) TimerEvent: {}
+[17.967455] (-) TimerEvent: {}
+[18.068647] (-) TimerEvent: {}
+[18.169629] (-) TimerEvent: {}
+[18.270584] (-) TimerEvent: {}
+[18.372220] (-) TimerEvent: {}
+[18.473030] (-) TimerEvent: {}
+[18.573562] (-) TimerEvent: {}
+[18.674632] (-) TimerEvent: {}
+[18.775563] (-) TimerEvent: {}
+[18.877013] (-) TimerEvent: {}
+[18.979634] (-) TimerEvent: {}
+[19.080346] (-) TimerEvent: {}
+[19.181197] (-) TimerEvent: {}
+[19.281774] (-) TimerEvent: {}
+[19.382730] (-) TimerEvent: {}
+[19.483305] (-) TimerEvent: {}
+[19.584334] (-) TimerEvent: {}
+[19.685088] (-) TimerEvent: {}
+[19.785580] (-) TimerEvent: {}
+[19.886786] (-) TimerEvent: {}
+[19.987636] (-) TimerEvent: {}
+[20.088377] (-) TimerEvent: {}
+[20.188836] (-) TimerEvent: {}
+[20.289787] (-) TimerEvent: {}
+[20.390424] (-) TimerEvent: {}
+[20.490817] (-) TimerEvent: {}
+[20.591365] (-) TimerEvent: {}
+[20.694490] (-) TimerEvent: {}
+[20.798036] (-) TimerEvent: {}
+[20.899568] (-) TimerEvent: {}
+[21.000347] (-) TimerEvent: {}
+[21.101132] (-) TimerEvent: {}
+[21.201613] (-) TimerEvent: {}
+[21.302524] (-) TimerEvent: {}
+[21.403332] (-) TimerEvent: {}
+[21.504305] (-) TimerEvent: {}
+[21.605309] (-) TimerEvent: {}
+[21.706367] (-) TimerEvent: {}
+[21.807725] (-) TimerEvent: {}
+[21.908717] (-) TimerEvent: {}
+[21.985081] (ros2_lam_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[21.985517] (ros2_lam_interfaces) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 50, in <module>\n'}
+[21.985717] (ros2_lam_interfaces) StderrLine: {'line': b'    sys.exit(main())\n'}
+[21.985880] (ros2_lam_interfaces) StderrLine: {'line': b'             ^^^^^^\n'}
+[21.986008] (ros2_lam_interfaces) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 46, in main\n'}
+[21.986111] (ros2_lam_interfaces) StderrLine: {'line': b'    generate_type_hash(args.generator_arguments_file)\n'}
+[21.986208] (ros2_lam_interfaces) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py", line 160, in generate_type_hash\n'}
+[21.986304] (ros2_lam_interfaces) StderrLine: {'line': b'    pkg_dir = include_map[pkg]\n'}
+[21.986395] (ros2_lam_interfaces) StderrLine: {'line': b'              ~~~~~~~~~~~^^^^^\n'}
+[21.986484] (ros2_lam_interfaces) StderrLine: {'line': b"KeyError: 'geometry_msg'\n"}
+[22.008866] (-) TimerEvent: {}
+[22.109513] (-) TimerEvent: {}
+[22.179608] (ros2_lam_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ros2_lam_interfaces__rosidl_generator_type_description.dir/build.make:75: rosidl_generator_type_description/ros2_lam_interfaces/srv/SetExclusionArea.json] Error 1\n'}
+[22.180588] (ros2_lam_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:215: CMakeFiles/ros2_lam_interfaces__rosidl_generator_type_description.dir/all] Error 2\n'}
+[22.180793] (ros2_lam_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[22.184230] (ros2_lam_interfaces) CommandEnded: {'returncode': 2}
+[22.208900] (ros2_lam_interfaces) JobEnded: {'identifier': 'ros2_lam_interfaces', 'rc': 2}
+[22.209731] (-) TimerEvent: {}
+[22.220394] (-) EventReactorShutdown: {}

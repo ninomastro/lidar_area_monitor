@@ -1,0 +1,10 @@
+[0.033s] Invoking command in '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/antonino/lidar_area_monitor/ros2_lam_interfaces -DCMAKE_INSTALL_PREFIX=/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces
+[0.175s] [33mCMake Warning:
+[0.175s]   Ignoring extra path from command line:
+[0.176s] 
+[0.176s]    "/home/antonino/lidar_area_monitor/ros2_lam_interfaces"
+[0.176s] 
+[0.176s] [0m
+[0.184s] [0mCMake Error: The source directory "/home/antonino/lidar_area_monitor/ros2_lam_interfaces" does not appear to contain CMakeLists.txt.
+[0.184s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.197s] Invoked command in '/home/antonino/lidar_area_monitor/ros2_lam_interfaces/build/ros2_lam_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/antonino/lidar_area_monitor/ros2_lam_interfaces -DCMAKE_INSTALL_PREFIX=/home/antonino/lidar_area_monitor/ros2_lam_interfaces/install/ros2_lam_interfaces
