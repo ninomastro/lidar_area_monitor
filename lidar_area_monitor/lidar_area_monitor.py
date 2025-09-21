@@ -1,13 +1,16 @@
 #!/usr/bin/env python3
+# pyright: reportMissingImports=false
 import math
 import struct
+import json
+import importlib.util
 import numpy as np
 
 import rclpy
 from rclpy.node import Node
 from rclpy.qos import QoSProfile, ReliabilityPolicy, DurabilityPolicy, HistoryPolicy
 
-from std_msgs.msg import Header
+from std_msgs.msg import Header, String
 from sensor_msgs.msg import LaserScan, PointCloud2, PointField
 from visualization_msgs.msg import Marker, MarkerArray
 from rcl_interfaces.msg import SetParametersResult
@@ -36,6 +39,18 @@ class LidarAreaMonitor(Node):
             history=HistoryPolicy.KEEP_LAST,
         )
         self.marker_pub = self.create_publisher(MarkerArray, "/visualization_marker_array", qos)
+
+        # --- PUB JSON per web bridge (PRIMA di disegnare le aree!) ---
+        qos_lat = QoSProfile(
+            depth=1,
+            reliability=ReliabilityPolicy.RELIABLE,
+            durability=DurabilityPolicy.TRANSIENT_LOCAL,
+            history=HistoryPolicy.KEEP_LAST,
+        )
+        # /lam/areas: ultimo stato aree (latched)
+        self.pub_areas = self.create_publisher(String, "/lam/areas", qos_lat)
+        # /lam/tracks: stream dei cluster tracciati
+        self.pub_tracks = self.create_publisher(String, "/lam/tracks", 10)
 
         # === Servizi aree ===
         # Retro-compatibile: sostituisce TUTTO con un'unica area
@@ -100,14 +115,12 @@ class LidarAreaMonitor(Node):
         self._prev_area_ns_ids = set()  # {(ns, id), ...}
 
         # === DBSCAN backend ===
-        try:
-            from sklearn.cluster import DBSCAN as SK_DBSCAN  # noqa
-            self._has_sklearn = True
-        except Exception:
-            self._has_sklearn = False
+        # rileva sklearn senza import "duro" (così niente warning IDE se assente)
+        self._has_sklearn = importlib.util.find_spec("sklearn.cluster") is not None
+        if not self._has_sklearn:
             self.get_logger().warn("scikit-learn non trovato: uso DBSCAN a griglia (veloce su ARM).")
 
-        # Pubblica subito i marker delle aree
+        # Pubblica subito i marker delle aree (e lo stato JSON)
         self.create_area_markers()
 
     # -------------------- Parametri --------------------
@@ -251,6 +264,7 @@ class LidarAreaMonitor(Node):
         self.next_area_id = 1
         # cancella marker delle aree attuali
         self._delete_all_area_markers()
+        self._publish_areas_json()
         response.success = True
         response.message = "Tutte le aree rimosse."
         return response
@@ -355,6 +369,7 @@ class LidarAreaMonitor(Node):
         self._prev_area_ns_ids = current
         if arr.markers:
             self.marker_pub.publish(arr)
+        self._publish_areas_json()  # JSON per frontend
 
     # -------------------- Utilità: PointCloud2 --------------------
     def create_point_cloud2_message(self, header: Header, points_xyz):
@@ -386,9 +401,13 @@ class LidarAreaMonitor(Node):
         eps = float(self.cluster_eps)
         min_pts = int(self.cluster_min_pts)
         if self._has_sklearn:
-            from sklearn.cluster import DBSCAN as SK_DBSCAN
-            db = SK_DBSCAN(eps=eps, min_samples=min_pts, metric="euclidean").fit(pts_xy)
-            return db.labels_.astype(np.int32)
+            try:
+                from sklearn.cluster import DBSCAN as SK_DBSCAN  # type: ignore
+                db = SK_DBSCAN(eps=eps, min_samples=min_pts, metric="euclidean").fit(pts_xy)
+                return db.labels_.astype(np.int32)
+            except Exception:
+                # se qualcosa va storto, torna al fallback senza rompere il nodo
+                self._has_sklearn = False
         return self._dbscan_grid(pts_xy, eps, min_pts)
 
     def _dbscan_grid(self, pts: np.ndarray, eps: float, min_pts: int) -> np.ndarray:
@@ -643,6 +662,7 @@ class LidarAreaMonitor(Node):
             if self._prev_cluster_marker_ids:
                 self._update_tracks([], [], stamp_t)
                 self._publish_cluster_markers()
+                self._publish_tracks_json(stamp_t)  # stream vuoto
             return
 
         x_in = x[mask_inside]; y_in = y[mask_inside]
@@ -655,7 +675,10 @@ class LidarAreaMonitor(Node):
         header = Header()
         header.frame_id = msg.header.frame_id
         header.stamp = msg.header.stamp
-        pc2_msg = self.create_point_cloud2_message(header=header, points_xyz=np.c_[pts_inside, np.zeros((pts_inside.shape[0], 1), dtype=np.float32)])
+        pc2_msg = self.create_point_cloud2_message(
+            header=header,
+            points_xyz=np.c_[pts_inside, np.zeros((pts_inside.shape[0], 1), dtype=np.float32)]
+        )
         if pc2_msg is not None:
             self.points_pub.publish(pc2_msg)
 
@@ -684,6 +707,42 @@ class LidarAreaMonitor(Node):
                     )
 
         self._publish_cluster_markers()
+        self._publish_tracks_json(stamp_t)  # stream JSON
+
+    # -------------------- Pubblicazione JSON (aree & tracks) --------------------
+    def _publish_areas_json(self):
+        """Pubblica lo stato aree su /lam/areas (latched)."""
+        areas = []
+        for aid, data in self.areas.items():
+            coords = [[float(x), float(y)] for (x, y) in list(data["poly"].exterior.coords)[:-1]]
+            minx, miny, maxx, maxy = data["bounds"]
+            areas.append({
+                "id": int(aid),
+                "coords": coords,
+                "bounds": [float(minx), float(miny), float(maxx), float(maxy)]
+            })
+        msg = String()
+        msg.data = json.dumps({"areas": areas})
+        self.pub_areas.publish(msg)
+
+    def _publish_tracks_json(self, now_t: float):
+        """Pubblica le tracce su /lam/tracks (stream)."""
+        tracks = []
+        for tid, t in self.tracks.items():
+            cx, cy = float(t["centroid"][0]), float(t["centroid"][1])
+            vx, vy = float(t["vel"][0]), float(t["vel"][1])
+            speed = float((vx * vx + vy * vy) ** 0.5)
+            bb = t.get("bbox", None)
+            bbox = [float(bb[0]), float(bb[1]), float(bb[2]), float(bb[3])] if bb is not None else None
+            tracks.append({
+                "id": int(tid),
+                "x": cx, "y": cy,
+                "vx": vx, "vy": vy, "speed": speed,
+                "bbox": bbox
+            })
+        msg = String()
+        msg.data = json.dumps({"stamp": float(now_t), "tracks": tracks})
+        self.pub_tracks.publish(msg)
 
 
 def main():
