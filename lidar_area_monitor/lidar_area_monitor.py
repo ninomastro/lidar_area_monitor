@@ -128,7 +128,7 @@ class LidarAreaMonitor(Node):
         self.declare_parameter("dist_a", 1.0)            # D_reale_cm = a * D_cm + b
         self.declare_parameter("dist_b", 0.0)
         self.declare_parameter("tag_ttl_sec", 0.6)
-        self.declare_parameter("tag_assoc_dist", 0.25)   # m -> raggio per match TAG↔cluster
+        self.declare_parameter("tag_assoc_dist", 1.00)   # m -> raggio per match TAG↔cluster 0.25
         self.declare_parameter("verified_color", [0.0, 1.0, 0.0, 1.0])
         self.declare_parameter("antenna_axis_len", 0.35) # m
         self.declare_parameter("lidar_axis_len", 0.35)   # m
